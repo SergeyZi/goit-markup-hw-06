@@ -162,7 +162,7 @@ img {
 /* Main */
 
 /* #region section hero */
-.hero {
+/* .hero {
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     background-size: cover;
@@ -173,9 +173,8 @@ img {
     padding-bottom: 188px;
     background-repeat: no-repeat;
     background-position: center;
-
-}
-.hero-titel {
+} */
+/* .hero-titel {
     display: flex;
     max-width: 496px;
     font-weight: 700;
@@ -186,9 +185,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-}
+} */
 
-.hero-button {
+/* .hero-button {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -207,11 +206,11 @@ img {
     margin-right: auto;
     margin-top: 48px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-button:hover,
+} */
+/* .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;  
-}
+} */
 /* #endregion */
 
 /* #region section feature */
