@@ -492,7 +492,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     gap: 72px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 .social-link:hover,
 .social-link:focus {
@@ -509,8 +509,10 @@ img {
 }
 @media screen and (min-width: 1158px) {
     .our-team-list {
-        width: 1140;
-        /* gap: 24px; */
+        width: 1140px;
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 24px;
     }
 }
 .our-team-title-two {
@@ -542,20 +544,12 @@ img {
 .o-t-title-end-text {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    margin: 32px 16px;
+    padding: 32px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
-    width: 232px;
-    height: 104px;
-}
-@media screen and (min-width: 1158px) {
-    .o-t-title-end-text {
-        margin: 0px 0px;
-        padding: 32px 0;
-    }
+    gap: 8px;;
 }
 .our-team-title-three {
     font-weight: 500;
