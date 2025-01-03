@@ -51,17 +51,69 @@
             </address>
             <button class="burger-btn" type="button">
                 <svg class="burger-icon" width="24" height="24">
-                    <use hreg="/goit-markup-hw-06/images/icons.svg#icon-email"></use>
+                    <use href="./images/icons.svg#icon-heroicons-solid-menu"></use>
                 </svg>
             </button>
+
+            <!-- ####################################################################### -->
             <div class="mobile-menu">
                 <div class="container mobile-menu-container">
-                    <button class="mobile-menu-close">Close</button>
-                    <nav class="mobile-menu-nav">Navigation</nav>
-                    <address>Address</address>
-                    <div>Soc link</div>
+                    <button class="mobile-menu-btn mobile-menu-btn-close"><svg class="mobile-close-icon icon-close"
+                            width="8" height="8">
+                            <use href="./images/icons.svg#icon-close"></use>
+                        </svg></button>
+                    <nav class="mobile-menu-nav">
+                        <ul class="mobile-menu-list-nav">
+                            <li> <a class="mobile-menu-line-nav menu-open" href="./index.html">Studio</a></li>
+                            <li> <a class="mobile-menu-line-nav" href="">Portfolio</a></li>
+                            <li> <a class="mobile-menu-line-nav" href="">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <address class="mobile-menu-cont">
+                        <ul class="mobile-menu-cont-list">
+                            <li> <a class="mobile-menu-cont-line menu-tel" href="tel:+110001111111">+11 (000)
+                                    111-11-11</a></li>
+                            <li> <a class="mobile-menu-cont-line"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                    </address>
+                    <ul class="mobile-menu-list">
+                        <li class="mobile-menu-line icon-line">
+                            <a href="" class="icon-mobile-menu-link icon-link">
+                                <svg class="icon-mobile-menu icon-social" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg></a>
+
+                        </li>
+                        <li class="mobile-menu-line icon-line">
+                            <a href="" class="icon-mobile-menu-link icon-link">
+                                <svg class="icon-mobile-menu icon-social" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg></a>
+
+                        </li>
+                        <li class="mobile-menu-line icon-line">
+                            <a href="" class="icon-mobile-menu-link icon-link">
+                                <svg class="icon-mobile-menu icon-social" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg></a>
+
+                        </li>
+                        <li class="mobile-menu-line icon-line">
+                            <a href="" class="icon-mobile-menu-link icon-link">
+                                <svg class="icon-mobile-menu icon-social" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+
+                        </li>
+                    </ul>
                 </div>
             </div>
+
+
+            <!-- ########################################################################### -->
+
         </div>
     </header>
 
@@ -303,12 +355,12 @@
                     <li class="our-portfolio-item">
                         <div class="img-text">
                             <picture>
-                                <source media="(min-width: 1158px)"
-                                    srcset="./images/section_our_portfolio/banking_app_comp@1x.jpg 1x, ./images/section_our_portfolio/banking_app_comp@2x.jpg 2x">
-                                <source media="(min-width: 768px)"
-                                    srcset="./images/section_our_portfolio/banking_app_tablet@1x.jpg 1x, ./images/section_our_portfolio/banking_app_tablet@2x.jpg 2x">
                                 <source media="(max-width: 767px)"
                                     srcset="./images/section_our_portfolio/banking_app_mobile@1x.jpg 1x, ./images/section_our_portfolio/banking_app_mobile@2x.jpg 2x">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/section_our_portfolio/banking_app_tablet@1x.jpg 1x, ./images/section_our_portfolio/banking_app_tablet@2x.jpg 2x">
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/section_our_portfolio/banking_app_comp@1x.jpg 1x, ./images/section_our_portfolio/banking_app_comp@2x.jpg 2x">
                                 <img class="our-portfolio-img" src="./images/section_our_portfolio/banking_app.jpg"
                                     alt="Banking App" width="360">
                             </picture>
