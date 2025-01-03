@@ -475,29 +475,28 @@ img {
 /* #endregion */
 
 /* #region Footer */
-.footer {
+/* .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-}
+} */
 
-.footer-container {
+/* .footer-container {
     display: flex;
-    /* align-items: center; */
     align-items: baseline;
-}
-.footer-logo-text {
+} */
+/* .footer-logo-text {
     width: 264px;
     height: 112px;
     margin-right: 120px;
-}
-.logo {
+} */
+/* .logo {
     display: inline-block;
-}
+} */
 
-.footer-logo-style {
+/* .footer-logo-style {
     color: #f4f4fd;
-}
-.footer-text {
+} */
+/* .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -505,12 +504,12 @@ img {
     color: #f4f4fd;
     width: 264px;
     margin-top: 16px;
-}
-.social-links-footer {
+} */
+/* .social-links-footer {
     width: 208px;
     height: 80px;
-}
-.social-media {
+} */
+/* .social-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -518,41 +517,40 @@ img {
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 16px;
-}
-.social-list-footer {
+} */
+/* .social-list-footer {   \\\\\\\\\\\\\\
     display: flex;
     justify-content: center;
     gap: 16px;
     width: 208px;
     height: 80px;
-}
-.social-link.footer-link:hover,
+} */
+/* .social-link.footer-link:hover,
 .social-link.footer-link:focus {
     background-color: #31d0aa;
-}
+} */
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-.footer-subscribe {
+/* .footer-subscribe {  
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     margin-left: 80px;
-}
+} */
 
-.form-footer {
+/* .form-footer {
     display: flex;
     gap: 24px;
-}
+} */
 
-.form-footer-text {
+/* .form-footer-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
-}
+} */
 
-.subscribe-inpud {
+/* .subscribe-inpud {
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
@@ -566,13 +564,13 @@ img {
     margin-right: 24px;
     padding-left: 16px;
     background-color: transparent;
-}
+} */
 
-.subscribe-inpud::placeholder {
+/* .subscribe-inpud::placeholder {
     color: #ffffff;
-}
+} */
 
-.subscribe-btn {
+/* .subscribe-btn {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -588,12 +586,12 @@ img {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
-}
+} */
 
-.subscribe-icon {
+/* .subscribe-icon {
     fill: #fff;
     margin-left: 16px;
-}
+} */
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* #endregion */
